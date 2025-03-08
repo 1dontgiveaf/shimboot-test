@@ -53,7 +53,7 @@ The main advantages of this approach are that you don't need to touch the device
 Note that rootfs partitions have to be named `shimboot_rootfs:<partname>` for the bootloader to recognize them.
 
 ## Status:
-Driver support depends on the device you are using shimboot on. The `patch_rootfs.sh` script attempts to copy all the firmware and drivers from the shim and recovery image into the rootfs, so expect most things to work on other boards. ARM Chromebooks are not supported at the moment.
+Driver support depends on the device you are using Shimboot on. The `patch_rootfs.sh` script attempts to copy all the firmware and drivers from the shim and recovery image into the rootfs, so expect most things to work on other boards. ARM Chromebooks are not supported at the moment.
 
 ### Device Compatibility Table:
 | Board Name                                       | X11               | Wifi              | Speakers | Backlight | Touchscreen | 3D Accel | Bluetooth | Webcam   |
