@@ -91,7 +91,7 @@ sigint_handler() {
 }
 trap sigint_handler SIGINT
 
-shim_url="https://mirror.akane.network/shims/ChromeOS/shims/Shimboot/$board.zip"
+shim_url="https://mirror.akane.network/shims/ChromeOS/shims/Shimboot/shimboot_$board.zip"
 boards_url="https://chromiumdash.appspot.com/cros/fetch_serving_builds?deviceCategory=ChromeOS"
 
 if [ -z "$data_dir" ]; then
