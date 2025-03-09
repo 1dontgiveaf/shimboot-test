@@ -40,7 +40,7 @@ arm_boards="
   kukui peach-pi peach-pit stumpy daisy-spring trogdor
 "
 #a list of shims that have a patch for the sh1mmer vulnerability
-bad_boards="reef sand pyro"
+bad_boards="reef sand snappy pyro"
 
 if grep -q "$board" <<< "$arm_boards" > /dev/null; then
   print_info "automatically detected arm64 device name"
